@@ -9,7 +9,7 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-star-o {
+.fa-star-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -64,7 +64,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-play-circle-o:before {
+.fa-play-circle-o:before {
   content: "\f144"; }
 
 .fa.fa-repeat:before {
@@ -187,7 +187,7 @@
 .fa.fa-bar-chart:before {
   content: "\f080"; }
 
-.fa.fa-bar-chart-o {
+.fa-bar-chart-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -260,7 +260,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-square-o:before {
+.fa-square-o:before {
   content: "\f0c8"; }
 
 .fa.fa-bookmark-o {
@@ -334,7 +334,7 @@
 .fa-hand-o-down:before {
   content: "\f0a7"; }
 
-.fa.fa-arrows-alt:before {
+.fa-arrows-alt:before {
   content: "\f31e"; }
 
 .fa.fa-group:before {
@@ -346,7 +346,7 @@
 .fa.fa-scissors:before {
   content: "\f0c4"; }
 
-.fa.fa-files-o {
+.fa-files-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -382,7 +382,7 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-google-plus:before {
+.fa-google-plus:before {
   content: "\f0d5"; }
 
 .fa.fa-money {
@@ -536,7 +536,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-smile-o:before {
+.fa-smile-o:before {
   content: "\f118"; }
 
 .fa.fa-frown-o {
@@ -645,7 +645,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-caret-square-o-down {
+.fa-caret-square-o-down {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -670,7 +670,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-toggle-up:before {
+.fa-toggle-up:before {
   content: "\f151"; }
 
 .fa.fa-caret-square-o-right {
@@ -702,7 +702,7 @@
 .fa.fa-dollar:before {
   content: "\f155"; }
 
-.fa.fa-inr:before {
+.fa-inr:before {
   content: "\f156"; }
 
 .fa.fa-rupee:before {
@@ -752,13 +752,13 @@
 .fa.fa-sort-alpha-asc:before {
   content: "\f15d"; }
 
-.fa.fa-sort-alpha-desc:before {
+.fa-sort-alpha-desc:before {
   content: "\f881"; }
 
 .fa.fa-sort-amount-asc:before {
   content: "\f160"; }
 
-.fa.fa-sort-amount-desc:before {
+.fa-sort-amount-desc:before {
   content: "\f884"; }
 
 .fa.fa-sort-numeric-asc:before {
@@ -818,7 +818,7 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-bitbucket-square:before {
+.fa-bitbucket-square:before {
   content: "\f171"; }
 
 .fa.fa-tumblr {
@@ -877,7 +877,7 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-gittip {
+.fa-gittip {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
@@ -932,7 +932,7 @@
 .fa.fa-arrow-circle-o-left:before {
   content: "\f359"; }
 
-.fa.fa-caret-square-o-left {
+.fa-caret-square-o-left {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -1065,14 +1065,14 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-envelope-o:before {
+.fa-envelope-o:before {
   content: "\f0e0"; }
 
 .fa.fa-spotify {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-deviantart {
+.fa-deviantart {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
