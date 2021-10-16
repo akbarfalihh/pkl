@@ -216,7 +216,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-thumbs-o-down:before {
+.fa-thumbs-o-down:before {
   content: "\f165"; }
 
 .fa.fa-heart-o {
