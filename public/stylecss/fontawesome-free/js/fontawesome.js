@@ -667,10 +667,11 @@
   function classArray(node) {
     if (node.classList) {
       return toArray(node.classList);
-    }
-    return (node.getAttribute('class') || '').split(' ').filter(function (i) {
+    } else {
+      return (node.getAttribute('class') || '').split(' ').filter(function (i) {
         return i;
       });
+    }
   }
   function getIconName(familyPrefix, cls) {
     var parts = cls.split('-');
@@ -679,8 +680,9 @@
 
     if (prefix === familyPrefix && iconName !== '' && !isReserved(iconName)) {
       return iconName;
-    } 
-    return null;
+    } else {
+      return null;
+    }
   }
   function htmlEscape(str) {
     return "".concat(str).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -763,8 +765,9 @@
   function deGroup(abstract) {
     if (abstract.tag === 'g') {
       return abstract.children;
+    } else {
+      return [abstract];
     }
-    return [abstract];
   }
 
   function makeIconMasking (_ref) {
@@ -1003,8 +1006,9 @@
 
     if (symbol) {
       return asSymbol(args);
+    } else {
+      return asIcon(args);
     }
-    return asIcon(args);
   }
   function makeLayersTextAbstract(params) {
     var content = params.content,
@@ -1353,8 +1357,9 @@
 
     if (typeof abstractNodes === 'string') {
       return htmlEscape(abstractNodes);
+    } else {
+      return "<".concat(tag, " ").concat(joinAttributes(attributes), ">").concat(children.map(toHtml).join(''), "</").concat(tag, ">");
     }
-    return "<".concat(tag, " ").concat(joinAttributes(attributes), ">").concat(children.map(toHtml).join(''), "</").concat(tag, ">");
   }
 
   var noop$2 = function noop() {};
