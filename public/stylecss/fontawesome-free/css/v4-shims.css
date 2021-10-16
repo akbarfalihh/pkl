@@ -90,7 +90,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-picture-o:before {
+.fa-picture-o:before {
   content: "\f03e"; }
 
 .fa.fa-photo {
@@ -157,7 +157,7 @@
 .fa.fa-expand:before {
   content: "\f424"; }
 
-.fa.fa-compress:before {
+.fa-compress:before {
   content: "\f422"; }
 
 .fa.fa-eye {
@@ -256,7 +256,7 @@
 .fa.fa-lemon-o:before {
   content: "\f094"; }
 
-.fa.fa-square-o {
+.fa-square-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -331,7 +331,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-hand-o-down:before {
+.fa-hand-o-down:before {
   content: "\f0a7"; }
 
 .fa.fa-arrows-alt:before {
@@ -401,7 +401,7 @@
 .fa.fa-sort-asc:before {
   content: "\f0de"; }
 
-.fa.fa-linkedin {
+.fa-linkedin {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
@@ -461,7 +461,7 @@
 .fa.fa-cloud-download:before {
   content: "\f381"; }
 
-.fa.fa-cloud-upload:before {
+.fa-cloud-upload:before {
   content: "\f382"; }
 
 .fa.fa-bell-o {
@@ -495,7 +495,7 @@
 .fa.fa-hospital-o:before {
   content: "\f0f8"; }
 
-.fa.fa-tablet:before {
+.fa-tablet:before {
   content: "\f3fa"; }
 
 .fa.fa-mobile:before {
@@ -626,7 +626,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-minus-square-o:before {
+.fa-minus-square-o:before {
   content: "\f146"; }
 
 .fa.fa-level-up:before {
@@ -720,7 +720,7 @@
 .fa.fa-yen:before {
   content: "\f157"; }
 
-.fa.fa-rub:before {
+.fa-rub:before {
   content: "\f158"; }
 
 .fa.fa-ruble:before {
@@ -746,7 +746,7 @@
 .fa.fa-bitcoin:before {
   content: "\f15a"; }
 
-.fa.fa-file-text:before {
+.fa-file-text:before {
   content: "\f15c"; }
 
 .fa.fa-sort-alpha-asc:before {
@@ -783,14 +783,14 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-youtube-play {
+.fa-youtube-play {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
 .fa.fa-youtube-play:before {
   content: "\f167"; }
 
-.fa.fa-dropbox {
+.fa-dropbox {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
@@ -881,14 +881,14 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-gittip:before {
+.fa-gittip:before {
   content: "\f184"; }
 
 .fa.fa-sun-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-sun-o:before {
+.fa-sun-o:before {
   content: "\f185"; }
 
 .fa.fa-moon-o {

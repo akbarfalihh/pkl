@@ -17,7 +17,7 @@ svg:not(:root).svg-inline--fa {
     width: 0.0625em; }
   .svg-inline--fa.fa-w-2 {
     width: 0.125em; }
-  .svg-inline--fa.fa-w-3 {
+  .fa-w-3 {
     width: 0.1875em; }
   .svg-inline--fa.fa-w-4 {
     width: 0.25em; }
@@ -224,7 +224,7 @@ svg:not(:root).svg-inline--fa {
 .fa-pull-right {
   float: right; }
 
-.fa.fa-pull-left,
+.fa-pull-left,
 .fas.fa-pull-left,
 .far.fa-pull-left,
 .fal.fa-pull-left,
@@ -287,7 +287,7 @@ svg:not(:root).svg-inline--fa {
   -webkit-transform: scale(1, -1);
           transform: scale(1, -1); }
 
-.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+.fa-flip-both, .fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(-1, -1);
           transform: scale(-1, -1); }
