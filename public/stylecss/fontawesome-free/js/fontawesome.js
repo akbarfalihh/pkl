@@ -30,13 +30,13 @@
       var descriptor = props[i];
       descriptor.enumerable = descriptor.enumerable || false;
       descriptor.configurable = true;
-      if ("value" in descriptor) descriptor.writable = true;
+      if ("value" in descriptor){ descriptor.writable = true;}
       Object.defineProperty(target, descriptor.key, descriptor);
     }
   }
 
   function _createClass(Constructor, protoProps, staticProps) {
-    if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+    if (protoProps){ _defineProperties(Constructor.prototype, protoProps);}
     if (staticProps) _defineProperties(Constructor, staticProps);
     return Constructor;
   }
@@ -85,7 +85,7 @@
 
   function _arrayWithoutHoles(arr) {
     if (Array.isArray(arr)) {
-      for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
+      for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++){ arr2[i] = arr[i];}
 
       return arr2;
     }
@@ -96,7 +96,8 @@
   }
 
   function _iterableToArray(iter) {
-    if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+    if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]"){ return Array.from(iter);
+    }
   }
 
   function _iterableToArrayLimit(arr, i) {
