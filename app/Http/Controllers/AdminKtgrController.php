@@ -56,17 +56,6 @@ class AdminKtgrController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\AdminKtgr  $adminKtgr
-     * @return \Illuminate\Http\Response
-     */
-    public function show(AdminKtgr $adminKtgr)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Models\AdminKtgr  $adminKtgr

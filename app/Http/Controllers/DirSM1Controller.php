@@ -90,40 +90,6 @@ class DirSM1Controller extends Controller
         return response()->file('UploadFileSM1/'.$file);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\DirSM1  $dirSM1
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(DirSM1 $dirSM1)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\DirSM1  $dirSM1
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, DirSM1 $dirSM1)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\DirSM1  $dirSM1
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(DirSM1 $dirSM1)
-    {
-        //
-    }
-
     public function TERIMA(DirSM1 $dirSM1)
     {
         DirSM1::where('id', $dirSM1->id)

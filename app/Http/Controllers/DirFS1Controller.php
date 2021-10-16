@@ -24,27 +24,6 @@ class DirFS1Controller extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        // 
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        // 
-    }
-
-    /**
      * Display the specified resource.
      *
      * @param  \App\Models\DirFS1  $dirFS1
@@ -58,39 +37,5 @@ class DirFS1Controller extends Controller
     public function show2($file)
     {
         return response()->file('UploadFileFS1/'.$file);
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\DirFS1  $dirFS1
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(DirFS1 $dirFS1)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\DirFS1  $dirFS1
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, DirFS1 $dirFS1)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\DirFS1  $dirFS1
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(DirFS1 $dirFS1)
-    {
-        //
     }
 }

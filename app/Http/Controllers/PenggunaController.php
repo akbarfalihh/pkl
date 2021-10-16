@@ -61,17 +61,6 @@ class PenggunaController extends Controller
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Pengguna  $pengguna
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Pengguna $pengguna)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
      * @param  \App\Models\Pengguna  $pengguna
