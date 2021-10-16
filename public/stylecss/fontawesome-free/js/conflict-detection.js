@@ -581,7 +581,8 @@
   });
 
   function md5ForNode(node) {
-    if (null === node || 'object' !== _typeof(node)) return undefined;
+    if (null === node || 'object' !== _typeof(node)){ return undefined;
+    }
 
     if (node.src) {
       return md5(node.src);
