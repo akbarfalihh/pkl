@@ -35,7 +35,7 @@ svg:not(:root).svg-inline--fa {
     width: 0.625em; }
   .svg-inline--fa.fa-w-11 {
     width: 0.6875em; }
-  .svg-inline--fa.fa-w-12 {
+  .fa-w-12 {
     width: 0.75em; }
   .svg-inline--fa.fa-w-13 {
     width: 0.8125em; }
@@ -47,7 +47,7 @@ svg:not(:root).svg-inline--fa {
     width: 1em; }
   .svg-inline--fa.fa-w-17 {
     width: 1.0625em; }
-  .svg-inline--fa.fa-w-18 {
+  .fa-w-18 {
     width: 1.125em; }
   .svg-inline--fa.fa-w-19 {
     width: 1.1875em; }
@@ -226,7 +226,7 @@ svg:not(:root).svg-inline--fa {
 
 .fa-pull-left,
 .fas.fa-pull-left,
-.far.fa-pull-left,
+.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
   margin-right: .3em; }

@@ -32,7 +32,7 @@
 .fa.fa-trash-o:before {
   content: "\f2ed"; }
 
-.fa.fa-file-o {
+.fa-file-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -154,17 +154,17 @@
 .fa.fa-mail-forward:before {
   content: "\f064"; }
 
-.fa.fa-expand:before {
+.fa-expand:before {
   content: "\f424"; }
 
 .fa-compress:before {
   content: "\f422"; }
 
-.fa.fa-eye {
+.fa-eye {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-eye-slash {
+.fa-eye-slash {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -191,7 +191,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-bar-chart-o:before {
+.fa-bar-chart-o:before {
   content: "\f080"; }
 
 .fa.fa-twitter-square {
@@ -202,7 +202,7 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-gears:before {
+.fa-gears:before {
   content: "\f085"; }
 
 .fa.fa-thumbs-o-up {
@@ -313,7 +313,7 @@
 .fa.fa-hand-o-right:before {
   content: "\f0a4"; }
 
-.fa.fa-hand-o-left {
+.fa-hand-o-left {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -389,7 +389,7 @@
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
-.fa.fa-money:before {
+.fa-money:before {
   content: "\f3d1"; }
 
 .fa.fa-unsorted:before {
@@ -455,7 +455,7 @@
 .fa.fa-lightbulb-o:before {
   content: "\f0eb"; }
 
-.fa.fa-exchange:before {
+.fa-exchange:before {
   content: "\f362"; }
 
 .fa.fa-cloud-download:before {
@@ -525,7 +525,7 @@
 .fa.fa-folder-o:before {
   content: "\f07b"; }
 
-.fa.fa-folder-open-o {
+.fa-folder-open-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -597,7 +597,7 @@
 .fa.fa-chain-broken:before {
   content: "\f127"; }
 
-.fa.fa-shield:before {
+.fa-shield:before {
   content: "\f3ed"; }
 
 .fa.fa-calendar-o {
@@ -690,7 +690,7 @@
 .fa.fa-eur:before {
   content: "\f153"; }
 
-.fa.fa-euro:before {
+.fa-euro:before {
   content: "\f153"; }
 
 .fa.fa-gbp:before {
@@ -898,7 +898,7 @@
 .fa.fa-moon-o:before {
   content: "\f186"; }
 
-.fa.fa-vk {
+.fa-vk {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
@@ -974,7 +974,7 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-wordpress {
+.fa-wordpress {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
@@ -1019,7 +1019,7 @@
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
-.fa.fa-digg {
+.fa-digg {
   font-family: 'Font Awesome 5 Brands';
   font-weight: 400; }
 
@@ -1108,7 +1108,7 @@
 .fa.fa-file-powerpoint-o:before {
   content: "\f1c4"; }
 
-.fa.fa-file-image-o {
+.fa-file-image-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
@@ -1136,7 +1136,7 @@
 .fa.fa-file-archive-o:before {
   content: "\f1c6"; }
 
-.fa.fa-file-zip-o {
+.fa-file-zip-o {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400; }
 
