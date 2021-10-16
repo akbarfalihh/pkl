@@ -17,7 +17,7 @@ class AdminSM1Controller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index()
     {
         $surat_masuk = AdminSM1::all();
         return view('admin.datasurat1.sm1', compact('surat_masuk'));

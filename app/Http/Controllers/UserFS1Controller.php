@@ -17,7 +17,7 @@ class UserFS1Controller extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Request $request)
+    public function index()
     {
         $format_surat = UserFS1::all();
         return view('user.formatsurat1.u_fs1', compact('format_surat'));

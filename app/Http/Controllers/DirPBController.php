@@ -36,7 +36,7 @@ class DirPBController extends Controller
      * @param  \App\Models\DirPB  $dirPB
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, DirPB $dirPB)
+    public function update(DirPB $dirPB)
     {
         DirPB::where('id', $dirPB->id)
             ->update([
