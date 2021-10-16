@@ -9,7 +9,7 @@
 	padding: 1px; /* Padding is replaced by border for focused cells. Prevents 'jumping' when adding borders. */
 }
 
-.cke_colordialog_colorcell.cke_colordialog_focused_light,
+.cke_colordialog_focused_light,
 .cke_colordialog_colorcell.cke_colordialog_focused_dark {
 	padding: 0; /* Shrink cell to allow 1px border indicating focus. */
 	border: 1px dotted #000;
