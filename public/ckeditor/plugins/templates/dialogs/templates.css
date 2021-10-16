@@ -54,9 +54,9 @@ For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
 	background-color: #fffacd;
 }
 
-.cke_tpl_list a:hover *,
-.cke_tpl_list a:focus *,
-.cke_tpl_list a:active *
+.cke_tpl_list a:hover,
+.cke_tpl_list a:focus,
+.cke_tpl_list a:active
 {
 	cursor: pointer;
 }
