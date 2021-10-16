@@ -37,7 +37,7 @@
 
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps){ _defineProperties(Constructor.prototype, protoProps);}
-    if (staticProps) _defineProperties(Constructor, staticProps);
+    if (staticProps){ _defineProperties(Constructor, staticProps);}
     return Constructor;
   }
 
@@ -110,7 +110,7 @@
       for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n === true) {
         _arr.push(_s.value);
 
-        if (i && _arr.length === i) break;
+        if (i && _arr.length === i){ break;}
       }
     } catch (err) {
       _d = true;
@@ -119,7 +119,7 @@
       try {
         if (!_n && _i["return"] != null) _i["return"]();
       } finally {
-        if (_d) throw _e;
+        if (_d){ throw _e;}
       }
     }
 
@@ -145,10 +145,10 @@
   };
 
   try {
-    if (typeof window !== 'undefined') _WINDOW = window;
-    if (typeof document !== 'undefined') _DOCUMENT = document;
-    if (typeof MutationObserver !== 'undefined') _MUTATION_OBSERVER = MutationObserver;
-    if (typeof performance !== 'undefined') _PERFORMANCE = performance;
+    if (typeof window !== 'undefined'){ _WINDOW = window;}
+    if (typeof document !== 'undefined'){ _DOCUMENT = document;}
+    if (typeof MutationObserver !== 'undefined'){ _MUTATION_OBSERVER = MutationObserver;}
+    if (typeof performance !== 'undefined'){ _PERFORMANCE = performance;}
   } catch (e) {}
 
   var _ref = _WINDOW.navigator || {},
@@ -237,8 +237,8 @@
     // Getting an empty string will occur if the attribute is set on the HTML tag but without a value
     // We'll assume that this is an indication that it should be toggled to true
     // For example <script data-search-pseudo-elements src="..."></script>
-    if (val === '') return true;
-    if (val === 'false') return false;
+    if (val === ''){ return true;}
+    if (val === 'false'){ return false;}
     if (val === 'true') return true;
     return val;
   }
