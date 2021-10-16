@@ -106,7 +106,7 @@
     var _e = undefined;
 
     try {
-      for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+      for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n == true) {
         _arr.push(_s.value);
 
         if (i && _arr.length === i) break;
