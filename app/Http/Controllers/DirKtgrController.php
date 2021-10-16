@@ -12,7 +12,7 @@ class DirKtgrController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         if ($request->has('cari')) {
             $kategori = DirKtgr::where('nama_ktgr', 'LIKE', '%'.$request->cari.'%')->get();
@@ -24,7 +24,7 @@ class DirKtgrController extends Controller
         return view('direksi.kategori.ktgr', compact('kategori'));
     }
 
-    public function index2(Request $request)
+    public function index2()
     {
         $kategori = DirKtgr::all();
         return view('direksi.akses.ak1', compact('kategori'));
