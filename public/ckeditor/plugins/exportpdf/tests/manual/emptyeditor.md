@@ -12,12 +12,12 @@
   **Expected:**
 
   * Empty file was downloaded.
-  * No errors in console.
+* No errors in console.
 
   **Unexpected:**
 
   * File wasn't downloaded.
-  * File was downloaded but can't be opened.
+* File was downloaded but can't be opened.
 * Error in the console appeared.
 
 1. Click `Export to PDF` button in the second editor.
