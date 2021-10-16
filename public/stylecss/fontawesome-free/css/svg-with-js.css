@@ -13,11 +13,11 @@ svg:not(:root).svg-inline--fa {
   vertical-align: -.125em; }
   .svg-inline--fa.fa-lg {
     vertical-align: -.225em; }
-  .fa-w-1 {
+  .svg-inline--fa.fa-w-1 {
     width: 0.0625em; }
-  .fa-w-2 {
+  .svg-inline--fa.fa-w-2 {
     width: 0.125em; }
-  .fa-w-3 {
+  .svg-inline--fa.fa-w-3 {
     width: 0.1875em; }
   .svg-inline--fa.fa-w-4 {
     width: 0.25em; }
@@ -35,7 +35,7 @@ svg:not(:root).svg-inline--fa {
     width: 0.625em; }
   .svg-inline--fa.fa-w-11 {
     width: 0.6875em; }
-  .fa-w-12 {
+  .svg-inline--fa.fa-w-12 {
     width: 0.75em; }
   .svg-inline--fa.fa-w-13 {
     width: 0.8125em; }
@@ -45,9 +45,9 @@ svg:not(:root).svg-inline--fa {
     width: 0.9375em; }
   .svg-inline--fa.fa-w-16 {
     width: 1em; }
-  .fa-w-17 {
+  .svg-inline--fa.fa-w-17 {
     width: 1.0625em; }
-  .fa-w-18 {
+  .svg-inline--fa.fa-w-18 {
     width: 1.125em; }
   .svg-inline--fa.fa-w-19 {
     width: 1.1875em; }
@@ -224,9 +224,9 @@ svg:not(:root).svg-inline--fa {
 .fa-pull-right {
   float: right; }
 
-.fa-pull-left,
+.fa.fa-pull-left,
 .fas.fa-pull-left,
-.fa-pull-left,
+.far.fa-pull-left,
 .fal.fa-pull-left,
 .fab.fa-pull-left {
   margin-right: .3em; }
@@ -287,7 +287,7 @@ svg:not(:root).svg-inline--fa {
   -webkit-transform: scale(1, -1);
           transform: scale(1, -1); }
 
-.fa-flip-both, .fa-flip-vertical {
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   -webkit-transform: scale(-1, -1);
           transform: scale(-1, -1); }
@@ -316,7 +316,7 @@ svg:not(:root).svg-inline--fa {
   right: 0;
   top: 0; }
 
-.fa-stack-1x {
+.svg-inline--fa.fa-stack-1x {
   height: 1em;
   width: 1.25em; }
 
